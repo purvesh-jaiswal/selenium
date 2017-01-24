@@ -14,7 +14,7 @@ public class accTest {
   public void f() {
 	  
 	  //System.setProperty("webdriver.gecko.driver", "C:/Users/Parineet/workspace/acc-demo/mozilla-geckodriver/geckodriver.exe");
-	  System.setProperty("webdriver.gecko.driver", "/acc-demo/geckodriver.exe");
+	  System.setProperty("webdriver.gecko.driver", "selenium/geckodriver.exe");
 	  //System.setProperty("webdriver.chrome.driver", "E:/ACC/chromedriver_win32/chromedriver.exe");
 	  WebDriver Driver = new FirefoxDriver();
 	  //WebDriver Driver = new ChromeDriver();
